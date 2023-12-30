@@ -12,7 +12,7 @@ win.setWindowTitle("Memory Card")
 win.setLayout(main_line)
 
 def answer_click():
-    if anser_btn.text() == "ВІдповісти":
+    if anser_btn.text() == "Відповісти":
         group_box.hide()
         result_box.show()
         anser_btn.setText("Наступне питання")

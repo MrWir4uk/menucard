@@ -47,7 +47,7 @@ group_box.setLayout(row2)
 
 result_box = QGroupBox("Варіанти перекладу")
 result_text = QLabel("правильно")
-right_answer_text = ("відповідь")
+right_answer_text = QLabel ("відповідь")
 anser_btn = QPushButton("Відповісти")
 resualt_line = QVBoxLayout()
 resualt_line.addWidget(result_text)
